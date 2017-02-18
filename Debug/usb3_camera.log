@@ -1,0 +1,47 @@
+﻿生成启动时间为 2017/2/16 10:21:30。
+     1>项目“D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\usb3_camera\usb3_camera.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Moc'ing mainwindow.h...
+         Moc'ing imageprocess.h...
+         Moc'ing imagemodel.h...
+         Moc'ing cydevice.h...
+         Rcc'ing mainwindow.qrc...
+     1>RCC : warning : No resources in 'D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\usb3_camera\mainwindow.qrc'.
+         
+         Uic'ing mainwindow.ui...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inc\third_party /I.\inc /I.\GeneratedFiles /I. /ID:\software\Qt\5.5\msvc2013\include /I.\GeneratedFiles\Debug /ID:\software\Qt\5.5\msvc2013\include\QtCore /ID:\software\Qt\5.5\msvc2013\include\QtGui /ID:\software\Qt\5.5\msvc2013\include\QtWidgets /ID:\software\Qt\5.5\msvc2013\include\QtConcurrent /ID:\software\opencv2.4.11\build\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_cydevice.cpp GeneratedFiles\Debug\moc_imagemodel.cpp GeneratedFiles\Debug\moc_imageprocess.cpp GeneratedFiles\Debug\moc_mainwindow.cpp src\cydevice.cpp src\imagefifo.cpp src\imagemodel.cpp src\imageprocess.cpp src\main.cpp src\mainwindow.cpp
+         moc_cydevice.cpp
+         moc_imagemodel.cpp
+         moc_imageprocess.cpp
+         moc_mainwindow.cpp
+         cydevice.cpp
+         imagefifo.cpp
+         imagemodel.cpp
+         imageprocess.cpp
+         main.cpp
+         mainwindow.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\inc\third_party /I.\inc /I.\GeneratedFiles /I. /ID:\software\Qt\5.5\msvc2013\include /I.\GeneratedFiles\Debug /ID:\software\Qt\5.5\msvc2013\include\QtCore /ID:\software\Qt\5.5\msvc2013\include\QtGui /ID:\software\Qt\5.5\msvc2013\include\QtWidgets /ID:\software\Qt\5.5\msvc2013\include\QtConcurrent /ID:\software\opencv2.4.11\build\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_CONCURRENT_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mainwindow.cpp
+         qrc_mainwindow.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Debug\camera.res" camera.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\Win32\Debug\\usb3_camera.exe" /NOLOGO /LIBPATH:.\lib /LIBPATH:D:\software\Qt\5.5\msvc2013\lib /LIBPATH:D:\software\opencv2.4.11\build\x86\vc12\lib setupapi.lib CyAPI.lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Concurrentd.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\Win32\Debug\usb3_camera.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\Win32\Debug\usb3_camera.lib" /MACHINE:X86 /SAFESEH /NODEFAULTLIB:"libcmt.lib" Debug\camera.res
+         Debug\moc_cydevice.obj
+         Debug\moc_imagemodel.obj
+         Debug\moc_imageprocess.obj
+         Debug\moc_mainwindow.obj
+         Debug\qrc_mainwindow.obj
+         Debug\cydevice.obj
+         Debug\imagefifo.obj
+         Debug\imagemodel.obj
+         Debug\imageprocess.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         usb3_camera.vcxproj -> D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\Win32\Debug\usb3_camera.exe
+     1>已完成生成项目“D:\VS projiect\pad_usb_camera_with_Cypress-multifunction_034\usb3_camera\usb3_camera.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:31.11
